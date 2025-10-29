@@ -1,0 +1,187 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: medium;
+}
+body {
+  background-color: white;
+}
+/*cabecalho*/
+#cabecalho {
+  background-color: #3237ba;
+  min-height: 230px;
+  margin-bottom: 50px;
+}
+#cabecalho div {
+  width:  1080px;
+  margin: 0 auto;
+}
+#cabecalho .logo {
+  width: 140px;
+  height: 140px;
+  padding-top: 5px;
+}
+#cabecalho ul {
+  list-style: none;
+  background-color: #b62323;
+  margin-top: 20px;
+  float: left;
+  width: 1080px;
+}
+#cabecalho ul > li {
+  float: left;
+}
+#cabecalho ul > li a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  display: inline-block;
+  /* Tags Display Inline não aceitam paddinng na vertical */
+  padding: 15px 15px;
+  font-weight: bolder;
+}
+#cabecalho ul > li a:hover {
+  /* color: black; */
+  /* background-color: rgb(209, 5, 5); */
+  border-bottom: solid white;
+  font-size: 17px;
+}
+/*Corpo*
+/*Coluna Lateral*/
+.container {
+  width: 1080px;
+  margin: 0 auto;
+}
+.coluna-lateral {
+  float: left;
+  width: 180px;
+  margin: 0 10px 10px 0;
+}
+.coluna-lateral h2 {
+  color: white;
+  background-color: #b62323;
+  padding: 10px;
+}
+.coluna-lateral .caixa {
+  min-height: 500px;
+  margin-bottom: 50px;
+}
+.link-lateral {
+  list-style: none;
+}
+.coluna-lateral .link-lateral li {
+  padding: 10px 10px 10px 0;
+}
+.coluna-lateral .link-lateral li > a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+  display: inline-block;
+  padding-left: 10px;
+  line-height: 5px;
+}
+.coluna-lateral .link-lateral li > a:hover {
+  background-color: #b62323;
+  color: white;
+  padding: 10px 10px 10px 10px;
+}
+/* Coluna de Aplicativo */
+/* Coluna Aplicativo e Tema */
+.col-destaque,
+.col-esporte,
+.col-tecnologia {
+  float: left;
+  margin: 0 20px 10px 0;
+  width: 270px;
+
+}
+
+.col-destaque .caixa h2 {
+  padding: 10px;
+  background-color: #b62323;
+  color: white;
+}
+
+.col-destaque .caixa .app img {
+  max-width: 270px;
+  border-radius: 10px;
+}
+
+.col-destaque .caixa .app h3 {
+  color: #ffffff;
+  margin: 5px 0;
+}
+
+.col-destaque .caixa .app p {
+  color: #000;
+  /* margin-bottom: 10px; */
+}
+
+.col-destaque .caixa .app a {
+  color: #b62323;
+  margin: 5px 0 20px;
+  display: block;
+}
+/* Temas */
+.col-esporte .caixa h2 {
+  padding: 10px;
+  color: white;
+  background-color: #b62323;
+}
+
+.col-esporte .caixa .tema h3 {
+  color: rgb(255, 255, 255);
+  margin: 5px 0;
+}
+.col-esporte .caixa .tema img {
+  max-width: 270px;
+  border-radius: 10px;
+}
+
+.col-esporte .caixa .tema p {
+  color: #000;
+}
+
+.col-esporte .caixa .tema a {
+  color: #b62323;
+  margin: 5px 0 20px;
+  display: block;
+}
+.col-tecnologia .caixa h2 {
+  padding: 10px;
+  color: white;
+  background-color: #b62323;
+}
+
+.col-tecnologia .caixa .tema h3 {
+  color: rgb(255, 255, 255);
+  margin: 5px 0;
+}
+.col-tecnologia .caixa .tema img {
+  max-width: 270px;
+  border-radius: 10px;
+}
+
+.col-tecnologia .caixa .tema p {
+  color: #000;
+}
+
+.col-tecnologia .caixa .tema a {
+  color: #b62323;
+  margin: 5px 0 20px;
+  display: block;
+}
+#rodape {
+  background-color: #b62323;
+  height: 200px;
+  clear: both;
+}
+#rodape div {
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  font-size: 16px;
+  padding: 30px;
+}
