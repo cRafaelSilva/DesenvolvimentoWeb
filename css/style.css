@@ -14,7 +14,7 @@ body {
   margin-bottom: 50px;
 }
 #cabecalho div {
-  width:  1080px;
+  width: 1080px;
   margin: 0 auto;
 }
 #cabecalho .logo {
@@ -95,7 +95,6 @@ body {
   float: left;
   margin: 0 20px 10px 0;
   width: 270px;
-
 }
 
 .col-destaque .caixa h2 {
@@ -106,11 +105,12 @@ body {
 
 .col-destaque .caixa .app img {
   max-width: 270px;
+  min-width: 270px;
   border-radius: 10px;
 }
 
 .col-destaque .caixa .app h3 {
-  color: #ffffff;
+  color: #000;
   margin: 5px 0;
 }
 
@@ -132,11 +132,12 @@ body {
 }
 
 .col-esporte .caixa .tema h3 {
-  color: rgb(255, 255, 255);
+  color: #000000;
   margin: 5px 0;
 }
 .col-esporte .caixa .tema img {
   max-width: 270px;
+  min-width: 270px;
   border-radius: 10px;
 }
 
@@ -156,11 +157,12 @@ body {
 }
 
 .col-tecnologia .caixa .tema h3 {
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   margin: 5px 0;
 }
 .col-tecnologia .caixa .tema img {
   max-width: 270px;
+  min-width: 270px;
   border-radius: 10px;
 }
 
